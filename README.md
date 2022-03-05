@@ -14,4 +14,4 @@ Some useful information about the implementetion of this project:
 - Some courses are more difficult than other, so difficult courses must be at least 2 days apart. For example one can be examined   on Monday and the next on Wednesday.
 - Courses of the same Proffesor must be examined in different days.
 - Courses of the same semester must be examined in different days.
-
+- All information about different courses can be extracted from the .csv file.
