@@ -1,7 +1,16 @@
-This project was implemented for the course AI YS02, during the winter semester of 2021, National and Kapodistrian University of Athens. 
+This project was implemented for the course AI YS02, during the winter semester 2021-2022, CS NKUA. 
 
 The goal of this project is to define an exam scheduling problem as a CSP problem and then use the implemented algorithms in csp.py to analyze the results. 
 
 Also in the csp.py file is implemented the Dom-wdeg heuristic according to this paper: http://www.frontiersinai.com/ecai/ecai2004/ecai04/pdf/p0146.pdf paragraph 3.3. 
 
-In the file Μαθηματα.csv there is the list of courses to be examined. In each course it is writen 
+Some useful information about the implementetion of this project:
+
+- The duration of the examination of each course is 3 hours.
+- The duration of the examination period of all courses is 21 days(Weekends are excluded).
+- There are 3 slots for each examination day.
+- Only one course per slot per day.
+- If a course has a lab examination, the lab examination can be scheduled right after the main course examination and only on the   same day.
+- Some courses are more difficult than other, so difficult courses must be at least 2 days apart. For example one can be examined   on Monday and the next on Wednesday.
+- Courses of the same Proffesor must be examined in different days.
+- Courses of the same semester must be examined in different days.
