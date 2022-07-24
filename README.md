@@ -1,4 +1,4 @@
-This project was implemented for the course AI YS02, during the winter semester 2021-2022, CS NKUA. 
+This project was implemented for the course AI1 (YS02), during the winter semester 2021-2022, CS NKUA. 
 
 The goal of this project is to define an exam scheduling problem as a CSP problem in timetable.py. Then use the already implemented algorithms from csp.py to analyze the results and come to a conclusion about the best performing algorithm. 
 
