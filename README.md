@@ -6,7 +6,7 @@ The goal of this project is to define an exam scheduling problem as a CSP proble
 
 Also in the csp.py file is implemented the Dom/Wdeg heuristic according to this paper: http://www.frontiersinai.com/ecai/ecai2004/ecai04/pdf/p0146.pdf paragraph 3.3. 
 
-### Some useful information about the implementetion of this project:
+### Some useful information about the implementetion of the project:
 
 - The duration of the examination of each course is 3 hours.
 - The duration of the examination period of all courses is 21 days(Weekends are excluded).
@@ -18,4 +18,5 @@ Also in the csp.py file is implemented the Dom/Wdeg heuristic according to this 
 - Courses of the same semester must be examined in different days.
 - All information about different courses can be extracted from the .csv file.
 
-
+#### More about the project:
+[hw3.pdf](https://github.com/panagiotiskon/AI-Project3/files/9176446/hw3.pdf)
